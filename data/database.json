@@ -3,15 +3,15 @@
     {
       "id": "t45AiwidW",
       "uuid": "6383f84e-b511-44c5-a835-3ece1d781fa8",
-      "firstName": "New First Name",
-      "lastName": "New Last Name",
+      "firstName": "Edgar",
+      "lastName": "Johns",
       "username": "Katharina_Bernier",
       "password": "$2a$10$5PXHGtcsckWtAprT5/JmluhR13f16BL8SIGhvAKNP.Dhxkt69FfzW",
-      "email": "email@email.com",
-      "phoneNumber": "6155551212",
+      "email": "Norene39@yahoo.com",
+      "phoneNumber": "625-316-9882",
       "avatar": "https://avatars.dicebear.com/api/human/t45AiwidW.svg",
       "defaultPrivacyLevel": "public",
-      "balance": 168137,
+      "balance": 1680137,
       "createdAt": "2019-08-27T23:47:05.637Z",
       "modifiedAt": "2020-05-21T11:02:22.857Z"
     },
@@ -74,6 +74,20 @@
       "balance": 75369,
       "createdAt": "2020-02-11T21:26:46.510Z",
       "modifiedAt": "2020-05-21T15:15:33.944Z"
+    },
+    {
+      "id": "iPLJ0AT9S",
+      "uuid": "9e1f5275-d55c-4d95-bf8d-02acfd3fb21b",
+      "firstName": "Srinivas",
+      "lastName": "Addanki",
+      "username": "srini_addanki",
+      "password": "$2a$10$w.LpwkdpPovyOJSOfnj1V.B0hPB9RH6mwZYhiRSFw7smSEMQEFfRO",
+      "email":"asprao@gmail.com",
+      "phoneNumber":"1234567890",
+      "defaultPrivacyLevel": "contacts",
+      "balance": 12000000,
+      "createdAt": "2020-10-26T16:08:35.313Z",
+      "modifiedAt": "2020-10-26T16:08:35.313Z"
     }
   ],
   "contacts": [

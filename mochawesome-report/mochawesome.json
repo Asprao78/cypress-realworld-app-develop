@@ -1,0 +1,140 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-10-30T08:27:42.108Z",
+    "end": "2020-10-30T08:27:51.984Z",
+    "duration": 9876,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "a738dce0-715e-4527-8bad-836d18f3e507",
+      "title": "",
+      "fullFile": "cypress\\tests\\sample_ui\\login.js",
+      "file": "cypress\\tests\\sample_ui\\login.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "0fb23e83-c2a8-43cd-a85b-a8f2dbe20d85",
+          "title": "This Feature tests the login functionality",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Login with a valid user and invalid password",
+              "fullTitle": "This Feature tests the login functionality Login with a valid user and invalid password",
+              "timedOut": null,
+              "duration": 5232,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.login('Katharina_Bernier', 'secret');\ncy.get('.MuiAlert-message').should('contain', 'Username or password is invalid');",
+              "err": {},
+              "uuid": "95b84ed7-306a-4798-8515-407d8cda1a54",
+              "parentUUID": "0fb23e83-c2a8-43cd-a85b-a8f2dbe20d85",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Login with Invalid user and valid password",
+              "fullTitle": "This Feature tests the login functionality Login with Invalid user and valid password",
+              "timedOut": null,
+              "duration": 2188,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.login('Katharima_Bernier', 's3cret');\ncy.get('.MuiAlert-message').should('contain', 'Username or password is invalid');",
+              "err": {},
+              "uuid": "1d2c29a1-e9c3-41f3-a179-488a17de969a",
+              "parentUUID": "0fb23e83-c2a8-43cd-a85b-a8f2dbe20d85",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Login with Valid username and Password",
+              "fullTitle": "This Feature tests the login functionality Login with Valid username and Password",
+              "timedOut": null,
+              "duration": 2274,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.login('Katharina_Bernier', 's3cret');\ncy.get('[data-test=\"sidenav-signout\"]').should('contain', 'Logout');",
+              "err": {},
+              "uuid": "ceb8124d-f672-4a48-b4ff-8266130d34f7",
+              "parentUUID": "0fb23e83-c2a8-43cd-a85b-a8f2dbe20d85",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "95b84ed7-306a-4798-8515-407d8cda1a54",
+            "1d2c29a1-e9c3-41f3-a179-488a17de969a",
+            "ceb8124d-f672-4a48-b4ff-8266130d34f7"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 9694,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.1.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default"
+      },
+      "version": "5.1.0"
+    }
+  }
+}

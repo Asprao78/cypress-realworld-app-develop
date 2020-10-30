@@ -16,5 +16,16 @@
     "codeCoverage": {
       "url": "http://localhost:3001/__coverage__"
     }
+  },
+  "reporter":"cypress-multi-reporters",
+  "reporterOptions":{
+    "reporterEnabled":"mochawesome",
+    "mochaawesomeReporterOptions":{
+      "reportDir":"cypress/reports/mocha",
+      "quite":true,
+      "overWrite":true,
+      "html":false,
+      "json":true
+    }
   }
 }
