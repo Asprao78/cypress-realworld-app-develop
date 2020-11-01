@@ -5,9 +5,9 @@
     "passes": 3,
     "pending": 0,
     "failures": 0,
-    "start": "2020-10-30T08:27:42.108Z",
-    "end": "2020-10-30T08:27:51.984Z",
-    "duration": 9876,
+    "start": "2020-10-30T09:23:37.341Z",
+    "end": "2020-10-30T09:23:46.324Z",
+    "duration": 8983,
     "testsRegistered": 3,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "a738dce0-715e-4527-8bad-836d18f3e507",
+      "uuid": "ebb9f021-bde7-49ad-bf6c-9e6077c490a3",
       "title": "",
       "fullFile": "cypress\\tests\\sample_ui\\login.js",
       "file": "cypress\\tests\\sample_ui\\login.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "0fb23e83-c2a8-43cd-a85b-a8f2dbe20d85",
+          "uuid": "074aa531-e753-43f5-b8c1-d433a30bf2d7",
           "title": "This Feature tests the login functionality",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Login with a valid user and invalid password",
               "fullTitle": "This Feature tests the login functionality Login with a valid user and invalid password",
               "timedOut": null,
-              "duration": 5232,
+              "duration": 5156,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,8 +47,8 @@
               "context": null,
               "code": "cy.login('Katharina_Bernier', 'secret');\ncy.get('.MuiAlert-message').should('contain', 'Username or password is invalid');",
               "err": {},
-              "uuid": "95b84ed7-306a-4798-8515-407d8cda1a54",
-              "parentUUID": "0fb23e83-c2a8-43cd-a85b-a8f2dbe20d85",
+              "uuid": "fdd0ce0b-de4c-4d96-a0ae-50881ca38cb2",
+              "parentUUID": "074aa531-e753-43f5-b8c1-d433a30bf2d7",
               "isHook": false,
               "skipped": false
             },
@@ -56,7 +56,7 @@
               "title": "Login with Invalid user and valid password",
               "fullTitle": "This Feature tests the login functionality Login with Invalid user and valid password",
               "timedOut": null,
-              "duration": 2188,
+              "duration": 1689,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -65,8 +65,8 @@
               "context": null,
               "code": "cy.login('Katharima_Bernier', 's3cret');\ncy.get('.MuiAlert-message').should('contain', 'Username or password is invalid');",
               "err": {},
-              "uuid": "1d2c29a1-e9c3-41f3-a179-488a17de969a",
-              "parentUUID": "0fb23e83-c2a8-43cd-a85b-a8f2dbe20d85",
+              "uuid": "23dcd8c1-8221-4e1a-92f7-8358bbccb7a4",
+              "parentUUID": "074aa531-e753-43f5-b8c1-d433a30bf2d7",
               "isHook": false,
               "skipped": false
             },
@@ -74,7 +74,7 @@
               "title": "Login with Valid username and Password",
               "fullTitle": "This Feature tests the login functionality Login with Valid username and Password",
               "timedOut": null,
-              "duration": 2274,
+              "duration": 1932,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -83,22 +83,22 @@
               "context": null,
               "code": "cy.login('Katharina_Bernier', 's3cret');\ncy.get('[data-test=\"sidenav-signout\"]').should('contain', 'Logout');",
               "err": {},
-              "uuid": "ceb8124d-f672-4a48-b4ff-8266130d34f7",
-              "parentUUID": "0fb23e83-c2a8-43cd-a85b-a8f2dbe20d85",
+              "uuid": "82edbf2c-e430-413f-beb0-f0b5c38dc7d8",
+              "parentUUID": "074aa531-e753-43f5-b8c1-d433a30bf2d7",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "95b84ed7-306a-4798-8515-407d8cda1a54",
-            "1d2c29a1-e9c3-41f3-a179-488a17de969a",
-            "ceb8124d-f672-4a48-b4ff-8266130d34f7"
+            "fdd0ce0b-de4c-4d96-a0ae-50881ca38cb2",
+            "23dcd8c1-8221-4e1a-92f7-8358bbccb7a4",
+            "82edbf2c-e430-413f-beb0-f0b5c38dc7d8"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 9694,
+          "duration": 8777,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

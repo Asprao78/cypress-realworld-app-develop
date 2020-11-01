@@ -18,6 +18,17 @@ export default (on, config) => {
       const { data } = await axios.get(`${testDataApiEndpoint}/${entity}`);
       return callback(data, attrs);
     };
+  
+  const cucumber = require('cypress-cucumber-preprocessor').default;
+
+  module.exports = (on, config) => {
+    on('file:preprocessor',cucumber())
+  }
+
+  const webpack = require('@cypress/webpack-preprocessor').default;
+  module.exports = on => {
+    on('file:preprocessor', webpack())
+  }
 
     return Array.isArray(query) ? Promise.map(query, fetchData) : fetchData(query);
   };
