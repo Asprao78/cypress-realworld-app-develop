@@ -14,7 +14,7 @@ pipeline {
       stage('Stage-02: Run The tests'){
           steps{
               nodejs('Node12'){
-                bat 'yarn cypress:runspec'    
+                bat 'yarn cypress:run'    
               }
           }
           
